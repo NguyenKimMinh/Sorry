@@ -43,10 +43,10 @@ function resizeYesButton() {
 function generateMessage(noCount) {
   const messages = [
     "Có cái cc",
-    "Minh biết lỗi rồi mà ạ =((\n Có cái lồn",
-    "Mi tha thứ cho Minh nốt lần này đi mòoo =((\n Câm",
-    "Minh biết lừa dối với bỏ rơi Mi là sai rồi mà ạ =((\n Cút",
-    "Mi cho Minh qlai để tạ lỗi và bù đắp cho Mi đi mà ạ =((\n Có cái đb",
+    "Minh biết lỗi rồi mà ạ =((\n CÓ CÁI LỒN",
+    "Mi tha thứ cho Minh nốt lần này đi mòoo =((\n CÂM",
+    "Minh biết lừa dối với bỏ rơi Mi là sai rồi mà ạ =((\n CÚT",
+    "Mi cho Minh qlai để tạ lỗi và bù đắp cho Mi đi mà ạ =((\n CÓ CÁI ĐB",
     "Hẹ hẹ hẹ thế là Mi tha cho Minh rồi nhé =(( Hôm nào đi bú bóng đi vk yêu =((\n Hẹ hẹ không từ chối đc nx đâu vk yêu =((",
   ];
 
