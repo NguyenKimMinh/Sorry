@@ -36,6 +36,14 @@ noButton.addEventListener("mouseover", () => {
   }
 });
 
+noButton.addEventListener("pointerdown", () => {
+  if (play) {
+    const x = Math.random() * 80 - 40;
+    const y = Math.random() * 80 - 40;
+    noButton.style.transform = `translate(${x}px, ${y}px)`;
+  }
+});
+
 function handleYesClick() {
   titleElement.innerHTML = "Vk iu sinh nhật vui vẻ ạ =(( Ck hứa không baoh dám xạo lồn với vợ nữa ạ =((";
   buttonsContainer.classList.add("hidden");
