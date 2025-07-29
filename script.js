@@ -119,3 +119,15 @@ function showLoveTime() {
 
   container.innerHTML = `🥰 Hẹ hẹ hẹ hơn 3 tháng quen vk ck vui lắm ạ =(( 🥰`;
 }
+
+document.body.addEventListener("click", playMusicOnce, { once: true });
+document.body.addEventListener("touchstart", playMusicOnce, { once: true });
+
+function playMusicOnce() {
+  const audio = document.getElementById("bg-music");
+  if (audio) {
+    audio.play().catch(e => {
+      console.warn("Không thể phát nhạc tự động:", e);
+    });
+  }
+}
