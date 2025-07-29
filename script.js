@@ -85,6 +85,9 @@ function generateMessage(noCount) {
   const kitty = document.getElementById("kitty-no");
   kitty.style.position = "absolute";
   kitty.style.animation = "circleAround 4s linear infinite";
+
+  const messageIndex = Math.min(noCount, messages.length - 1);
+  return messages[messageIndex];
 }
 
 function changeImage(image) {
