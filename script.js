@@ -122,6 +122,7 @@ function showLoveTime() {
 
 document.body.addEventListener("click", playMusicOnce, { once: true });
 document.body.addEventListener("touchstart", playMusicOnce, { once: true });
+document.body.addEventListener("pointerdown", playMusicOnce, { once: true });
 
 function playMusicOnce() {
   const audio = document.getElementById("bg-music");
