@@ -69,7 +69,7 @@ function resizeYesButton() {
   yesButton.style.fontSize = `${newFontSize}px`;
 }
 
-function generateMessage(noCount) {
+function updateNoButtonText() {
   const messages = [
     "Có cái cc",
     "Minh biết lỗi rồi mà ạ =((",
@@ -85,9 +85,6 @@ function generateMessage(noCount) {
   const kitty = document.getElementById("kitty-no");
   kitty.style.position = "absolute";
   kitty.style.animation = "circleAround 4s linear infinite";
-
-  const messageIndex = Math.min(noCount, messages.length - 1);
-  return messages[messageIndex];
 }
 
 function changeImage(image) {
@@ -113,8 +110,4 @@ function showLoveTime() {
   document.body.appendChild(container);
 
   container.innerHTML = `🥰 Hẹ hẹ hẹ hơn 3 tháng quen vk ck vui lắm ạ =(( 🥰`;
-}
-
-function updateNoButtonText() {
-  noButton.innerHTML = generateMessage(noCount);
 }
