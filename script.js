@@ -120,8 +120,6 @@ function showLoveTime() {
   container.innerHTML = `🥰 Hẹ hẹ hẹ hơn 3 tháng quen vk ck vui lắm ạ =(( 🥰`;
 }
 
-document.body.addEventListener("click", playMusicOnce, { once: true });
-document.body.addEventListener("touchstart", playMusicOnce, { once: true });
 document.body.addEventListener("pointerdown", playMusicOnce, { once: true });
 
 function playMusicOnce() {
